@@ -27,7 +27,6 @@ def look(requests, head, direction="left"):
     print("\nLOOK Seek Sequence:", " → ".join(map(str, seek_sequence)))
     print("Total Seek Time:", seek_time)
 
-# Example usage (Remove this if using main.py to import the function)
 if _name_ == "_main_":
     requests = list(map(int, input("Enter disk requests separated by spaces: ").split()))
     head = int(input("Enter the initial head position: "))
