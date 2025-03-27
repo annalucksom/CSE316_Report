@@ -8,7 +8,6 @@ def scan(requests, head, disk_size, direction="left"):
         else:
             right.append(req)
 
-    # Add 0 (beginning) for left direction
     left.append(0)
     left.sort()
     right.sort()
@@ -28,7 +27,6 @@ def scan(requests, head, disk_size, direction="left"):
     print("\nSCAN Seek Sequence:", " → ".join(map(str, seek_sequence)))
     print("Total Seek Time:", seek_time)
 
-# Example usage (Remove this if using main.py to import the function)
 if _name_ == "_main_":
     requests = list(map(int, input("Enter disk requests separated by spaces: ").split()))
     head = int(input("Enter the initial head position: "))
