@@ -11,7 +11,6 @@ def c_scan(requests, head, disk_size):
     right.sort()
     left.sort()
 
-    # C-SCAN moves in one direction, reaching the disk end, then jumps to start
     seek_sequence = [head] + right + [disk_size] + [0] + left
 
     for i in range(1, len(seek_sequence)):
@@ -20,7 +19,6 @@ def c_scan(requests, head, disk_size):
     print("\nC-SCAN Seek Sequence:", " → ".join(map(str, seek_sequence)))
     print("Total Seek Time:", seek_time)
 
-# Example usage (Remove this if using main.py to import the function)
 if _name_ == "_main_":
     requests = list(map(int, input("Enter disk requests separated by spaces: ").split()))
     head = int(input("Enter the initial head position: "))
