@@ -29,12 +29,3 @@ Solution -
 
 A Python-based interactive simulator that takes user input for disk requests, applies multiple scheduling algorithms, and provides graphical visualizations and performance analysis.
 
-Contribution:
-
-Team Members:
-
-Arathi krishnan K R, Regno: 12305050, Roll no: 47
-
-Anna Grace Lucksom, Regno: 12305430, Roll no: 44
-
-Sayed  Afnan, Regno: 12319198, Roll no: 58
