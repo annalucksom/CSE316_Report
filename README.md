@@ -1,8 +1,3 @@
-# CSE316_Report
-TOPIC: ADVANCED DISK SCHEDULING SIMULATOR
-
-Overview:
-
 The Advanced Disk Scheduling Simulator is a software tool designed to simulate various disk scheduling algorithms. These algorithms help manage how disk requests are processed efficiently, minimizing seek time and optimizing overall system performance.
 
 
